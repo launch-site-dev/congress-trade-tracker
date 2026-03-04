@@ -1,0 +1,50 @@
+{
+  "lastUpdated": "2026-03-04T22:03:13.612Z",
+  "totalTransactions": 8350,
+  "recentTransactions30d": 0,
+  "highValueTransactions": 528,
+  "uniqueTickers": 1027,
+  "uniqueSenators": 68,
+  "topTickers": [
+    {
+      "ticker": "N/A",
+      "count": 463
+    },
+    {
+      "ticker": "AAPL",
+      "count": 153
+    },
+    {
+      "ticker": "BAC",
+      "count": 84
+    },
+    {
+      "ticker": "NFLX",
+      "count": 77
+    },
+    {
+      "ticker": "DISCA",
+      "count": 74
+    },
+    {
+      "ticker": "PFE",
+      "count": 73
+    },
+    {
+      "ticker": "MSFT",
+      "count": 71
+    },
+    {
+      "ticker": "DIS",
+      "count": 69
+    },
+    {
+      "ticker": "T",
+      "count": 68
+    },
+    {
+      "ticker": "FEYE",
+      "count": 66
+    }
+  ]
+}
