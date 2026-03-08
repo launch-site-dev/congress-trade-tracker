@@ -32,13 +32,20 @@ node src/scrape_capitoltrades.js
 
 # 2. Generate alert
 node src/generate_alert.js
+
+# 3. Calculate Portfolio Net Position
+node src/portfolio_tracker.js
+
+# 4. Sync to Notion
+export NOTION_TRADES_DB_ID=your_db_id
+node src/notion_push.js
 ```
 
 ## 📋 Build Plan Progress
 
 - **Night 4 (Wed):** Infrastructure & Historical Ingestion ✅
-- **Night 5 (Thu):** Live Data Scraper & Alerting ✅ (Unblocked!)
-- **Night 6 (Fri):** Portfolio Tracking & Notion Integration 🔜
+- **Night 5 (Thu):** Live Data Scraper & Alerting ✅
+- **Night 6 (Fri):** Portfolio Tracking & Notion Integration ✅
 - **Night 7 (Sat):** Paper Trading API + Dashboard 🔜
 
 ## 🔧 Technical Details
