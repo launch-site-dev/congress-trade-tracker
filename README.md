@@ -39,6 +39,12 @@ node src/portfolio_tracker.js
 # 4. Sync to Notion
 export NOTION_TRADES_DB_ID=your_db_id
 node src/notion_push.js
+
+# 5. Paper Trade Execution (Alpaca)
+export APCA_API_KEY_ID=your_key
+export APCA_API_SECRET_KEY=your_secret
+export APCA_API_BASE_URL=https://paper-api.alpaca.markets
+node src/paper_trade.js
 ```
 
 ## 📋 Build Plan Progress
@@ -46,7 +52,7 @@ node src/notion_push.js
 - **Night 4 (Wed):** Infrastructure & Historical Ingestion ✅
 - **Night 5 (Thu):** Live Data Scraper & Alerting ✅
 - **Night 6 (Fri):** Portfolio Tracking & Notion Integration ✅
-- **Night 7 (Sat):** Paper Trading API + Dashboard 🔜
+- **Night 7 (Mon):** Paper Trading Integration (Alpaca) ✅
 
 ## 🔧 Technical Details
 
